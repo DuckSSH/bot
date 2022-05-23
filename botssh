@@ -321,12 +321,12 @@ while :; do
       ShellBot.watchHandle --callback_data ${callback_query_data[$id]}
       comando=(${message_text[$id]})
     [[ "${comando[0]}" = "/menu"  || "${comando[0]}" = "/start"  && menu
-    [[ "${comando[0]}" = "/ACESSO1" && acesso
-    [[ "${comando[0]}" = "/acesso1" && acesso 
-    [[ "${comando[0]}" = "/ACESSO2" && acesso 
-    [[ "${comando[0]}" = "/acesso2" && acesso 
-    [[ "${comando[0]}" = "/ACESSO3" && acesso 
-    [[ "${comando[0]}" = "/acesso3" && acesso
+    [[ "${comando[0]}" = "/ACESSO1" ]] && acesso
+    [[ "${comando[0]}" = "/acesso1" ]] && acesso 
+    [[ "${comando[0]}" = "/ACESSO2" ]] && acesso 
+    [[ "${comando[0]}" = "/acesso2" ]] && acesso 
+    [[ "${comando[0]}" = "/ACESSO3" ]] && acesso 
+    [[ "${comando[0]}" = "/acesso3" ]] && acesso
     ) &
   done
 done
