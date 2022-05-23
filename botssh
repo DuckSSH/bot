@@ -25,7 +25,7 @@ menu() {
         msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
         msg+="<b>GERE SEU TESTE DE 2 HORAS GRÁTIS</b>\n"
         msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
-        msg+="<b>🔴CLARO 🟣VIVO 🔵TIM 🟡Oi</b>\n"
+        msg+="<b>🔴CLARO 🟣VIVO 🔵TIM</b>\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
         --text "$(echo -e $msg)" \
         --reply_markup "$keyboard1" \
@@ -40,8 +40,8 @@ ACESSO() {
         msg+="<b>✅ ✨ 1 LOGIN DUCKNET VIP ✨ ✅</b>"
         msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
         msg+="🌐 » Aplicativos DUCKNET VIP ✓"
-        msg+="👤 » Usuário: <code>xxxxx</code>"
-        msg+="🔑 » Senha: <code>xxxxx</code>"
+        msg+="👤 » Usuário:<code>xxxxx</code>"
+        msg+="🔑 » Senha:<code>xxxxx</code>"
         msg+="👤 » Limite: 1 Usuário."
         msg+="📆 » Val: 30 Dias."
         msg+="💰 » Valor: R$ 15,00"
@@ -64,8 +64,8 @@ acesso() {
         msg+="<b>✅ ✨ 1 LOGIN DUCKNET VIP ✨ ✅</b>"
         msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
         msg+="🌐 » Aplicativos DUCKNET VIP ✓"
-        msg+="👤 » Usuário: <code>xxxxx</code>"
-        msg+="🔑 » Senha: <code>xxxxx</code>"
+        msg+="👤 » Usuário:<code>xxxxx</code>"
+        msg+="🔑 » Senha:<code>xxxxx</code>"
         msg+="👤 » Limite: 1 Usuário."
         msg+="📆 » Val: 30 Dias."
         msg+="💰 » Valor: R$ 15,00"
