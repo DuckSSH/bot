@@ -41,12 +41,18 @@ msg+="<b>✅ ✨ 1 LOGIN DUCK VIP ✨ ✅</b>"
 msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
 msg+="🌐 » Aplicativos DUCK VIP ✓"
 msg+="👤 » Usuário: <code>xxxxx</code>"
+<br/>
 msg+="🔑 » Senha: <code>xxxxx</code>"
+<br/>
 msg+="👤 » Limite: 1 Usuário."
+<br/>
 msg+="📆 » Val: 30 Dias."
+<br/>
 msg+="💰 » Valor: R$ 15,00"
+<br/>
 msg+=""
 msg+="👨🏻‍💻Compre Com @DuckSSH_OFC"
+<br/>
 msg+=""
 msg+="📱Atendimento Das 10:00 AM Até 8:00 PM !"
 msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
@@ -64,13 +70,20 @@ acesso() {
 msg+="<b>✅ ✨ 1 LOGIN DUCKNET VIP ✨ ✅</b>"
 msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
 msg+="🌐 » Aplicativos DUCKNET VIP ✓"
+<br/>
 msg+="👤 » Usuário: <code>xxxxx</code>"
+<br/>
 msg+="🔑 » Senha: <code>xxxxx</code>"
+<br/>
 msg+="👤 » Limite: 1 Usuário."
+<br/>
 msg+="📆 » Val: 30 Dias."
+<br/>
 msg+="💰 » Valor: R$ 15,00"
+<br/>
 msg+=""
 msg+="👨🏻‍💻Compre Com @DuckSSH_OFC"
+<br/>
 msg+=""
 msg+="📱Atendimento Das 10:00 AM Até 8:00 PM !"
 msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
