@@ -25,7 +25,7 @@ menu() {
         msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
         msg+="<b>GERE SEU TESTE DE 2 HORAS GRÁTIS</b>\n"
         msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
-        msg+="<b>🔴CLARO 🟣VIVO 🔵TIM 🟡Oi</b>\n"
+        msg+="<b>🔴CLARO 🟣VIVO 🔵TIM</b>\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
         --text "$(echo -e $msg)" \
         --reply_markup "$keyboard1" \
@@ -37,12 +37,19 @@ menu() {
 ACESSO() {
     local msg
         msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
-msg+="👤 ▬| <b>1 Acesso</b> de 30 dias: 15 R$"
-msg+="👤 ▬| <b>2 Acesso</b> de 30 dias: 25 R$"
-msg+="👤 ▬| <b>3 Acesso</b> de 30 dias: 35 R$" 
+msg+="<b>✅ ✨ 1 LOGIN DUCKNET VIP ✨ ✅</b>"
 msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
-msg+="Chame somente se for querer Adquirir 😳
-Contato pra venda e suporte : @duckssh_ofc"
+msg+="🌐 » Aplicativos DUCKNET VIP ✓"
+msg+="👤 » Usuário: <code>xxxxx</code>"
+msg+="🔑 » Senha: <code>xxxxx</code>"
+msg+="👤 » Limite: 1 Usuário."
+msg+="📆 » Val: 30 Dias."
+msg+="💰 » Valor: R$ 15,00"
+
+msg+="👨🏻‍💻Compre Com @DuckSSH_OFC"
+
+msg+="📱Atendimento Das 10:00 AM Até 8:00 PM !"
+msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
         --text "$(echo -e $msg)" \
         --reply_markup "$keyboard1" \
@@ -53,13 +60,20 @@ Contato pra venda e suporte : @duckssh_ofc"
 # - Funcao acesso
 acesso() {
     local msg
-        msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
-msg+="👤 ▬| <b>1 Acesso</b> de 30 dias: 15 R$"
-msg+="👤 ▬| <b>2 Acesso</b> de 30 dias: 25 R$"
-msg+="👤 ▬| <b>3 Acesso</b> de 30 dias: 35 R$" 
+       msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
+msg+="<b>✅ ✨ 1 LOGIN DUCKNET VIP ✨ ✅</b>"
 msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
-msg+="Chame somente se for querer Adquirir 😳
-Contato pra venda e suporte : @duckssh_ofc"
+msg+="🌐 » Aplicativos DUCKNET VIP ✓"
+msg+="👤 » Usuário: <code>xxxxx</code>"
+msg+="🔑 » Senha: <code>xxxxx</code>"
+msg+="👤 » Limite: 1 Usuário."
+msg+="📆 » Val: 30 Dias."
+msg+="💰 » Valor: R$ 15,00"
+
+msg+="👨🏻‍💻Compre Com @DuckSSH_OFC"
+
+msg+="📱Atendimento Das 10:00 AM Até 8:00 PM !"
+msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n" 
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
         --text "$(echo -e $msg)" \
         --reply_markup "$keyboard1" \
