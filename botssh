@@ -285,7 +285,7 @@ fi
 #enviar app
 enviarapp() {
     ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
-        --text "♻️ ENVIANDO APLICATIVO"
+        --text "♻️ ENVIANDO... AGUARDE!"
     ShellBot.sendDocument --chat_id ${callback_query_message_chat_id} \
         --document "@/root/DuckInNET_V1.apk" \
     return 0
