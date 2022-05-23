@@ -81,7 +81,7 @@ msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
 ACESSO2() {
     local msg
         msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
-msg+="<b>✅ ✨ 1 LOGIN DuckInNET VIP ✨ ✅</b>"
+msg+="<b>✅ ✨ 2 LOGIN DuckInNET VIP ✨ ✅</b>"
 msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
 msg+="<b>🌐 » Aplicativo:</b> DuckInNET VIP ✓\n"
 msg+="<b>👤 » Usuário:</b><code>xxxxx</code>\n"
@@ -103,7 +103,7 @@ msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
 acesso2() {
     local msg
         msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
-msg+="<b>✅ ✨ 1 LOGIN DuckInNET VIP ✨ ✅</b>"
+msg+="<b>✅ ✨ 2 LOGIN DuckInNET VIP ✨ ✅</b>"
 msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
 msg+="<b>🌐 » Aplicativo:</b> DuckInNET VIP ✓\n"
 msg+="<b>👤 » Usuário:</b><code>xxxxx</code>\n"
@@ -125,7 +125,7 @@ msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
 ACESSO3() {
     local msg
         msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
-msg+="<b>✅ ✨ 1 LOGIN DuckInNET VIP ✨ ✅</b>"
+msg+="<b>✅ ✨ 3 LOGIN DuckInNET VIP ✨ ✅</b>"
 msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
 msg+="<b>🌐 » Aplicativo:</b> DuckInNET VIP ✓\n"
 msg+="<b>👤 » Usuário:</b><code>xxxxx</code>\n"
@@ -147,7 +147,7 @@ msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
 acesso3() {
     local msg
         msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
-msg+="<b>✅ ✨ 1 LOGIN DuckInNET VIP ✨ ✅</b>"
+msg+="<b>✅ ✨ 3 LOGIN DuckInNET VIP ✨ ✅</b>"
 msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
 msg+="<b>🌐 » Aplicativo:</b> DuckInNET VIP ✓\n"
 msg+="<b>👤 » Usuário:</b><code>xxxxx</code>\n"
@@ -170,7 +170,7 @@ criarteste() {
    [[  $(grep -wc ${callback_query_from_id} lista) != '0' ]] && {
       ShellBot.sendMessage --chat_id ${callback_query_message_chat_id} \
         --text "⚠️ ATENÇÃO: foi encontrado em nosso sistema que você ja gerou um login teste no premium.
- Caso queira adquirir um login de 30 dias digite ou clique em /acesso"
+ Caso queira adquirir um login de 30 dias digite ou clique em /acesso1"
       return 0
     }
     usuario=$(echo PBxyx$(( RANDOM% + 999 )))
@@ -203,7 +203,7 @@ criarteste2() {
    [[ $(grep -wc ${callback_query_from_id} lista) != '0'  ]] && {
       ShellBot.sendMessage --chat_id ${callback_query_message_chat_id} \
         --text "⚠️ ATENÇÃO: foi encontrado em nosso sistema que você ja gerou um login teste no premium.
- Caso queira adquirir um login de 30 dias digite ou clique em /ACESSO"
+ Caso queira adquirir um login de 30 dias digite ou clique em /acesso1"
       return 0
     }
     usuario=$(echo teste$(( RANDOM% + 250 )))
@@ -245,7 +245,7 @@ criarteste3() {
 	 [[ $(grep -wc ${callback_query_from_id} lista) != '0' ]] && {
       ShellBot.sendMessage --chat_id ${callback_query_message_chat_id} \
         --text "⚠️ ATENÇÃO: foi encontrado em nosso sistema que você ja gerou um login teste no premium.
- Caso queira adquirir um login de 30 dias digite ou clique em /ACESSO1"
+ Caso queira adquirir um login de 30 dias digite ou clique em /acesso1"
       return 0
     }
     usuario=$(echo teste$(( RANDOM% + 250 )))
@@ -321,12 +321,12 @@ while :; do
       ShellBot.watchHandle --callback_data ${callback_query_data[$id]}
       comando=(${message_text[$id]})
     [[ "${comando[0]}" = "/menu"  || "${comando[0]}" = "/start"  ]] && menu
-    [[ "${comando[0]}" = "/ACESSO1"  ]] && acesso
-    [[ "${comando[0]}" = "/acesso1"  ]] && acesso 
-    [[ "${comando[0]}" = "/ACESSO2"  ]] && acesso 
-    [[ "${comando[0]}" = "/acesso2"  ]] && acesso 
-    [[ "${comando[0]}" = "/ACESSO3"  ]] && acesso 
-    [[ "${comando[0]}" = "/acesso3"  ]] && acesso
+    [[ "${comando[0]}" = "/ACESSO1" ]] && acesso
+    [[ "${comando[0]}" = "/acesso1" ]] && acesso 
+    [[ "${comando[0]}" = "/ACESSO2" ]] && acesso 
+    [[ "${comando[0]}" = "/acesso2" ]] && acesso 
+    [[ "${comando[0]}" = "/ACESSO3" ]] && acesso 
+    [[ "${comando[0]}" = "/acesso3" ]] && acesso
     ) &
   done
 done
