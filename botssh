@@ -173,7 +173,7 @@ criarteste() {
  Caso queira adquirir um login de 30 dias digite ou clique em /acesso1"
       return 0
     }
-    usuario=$(echo DUCK(( RANDOM% + 999 )))
+    usuario=$(echo DUCK$(( RANDOM% + 999 )))
     senha=$((RANDOM% + 99999))
     limite='1'
     tempo='2'
