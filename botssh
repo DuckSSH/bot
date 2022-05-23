@@ -37,7 +37,7 @@ menu() {
 ACESSO1() {
     local msg
         msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
-msg+="✅ ✨ 1 LOGIN DuckInNET VIP ✨ ✅"
+msg+="<b>✅ ✨ 1 LOGIN DuckInNET VIP ✨ ✅</b>"
 msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
 msg+="<b>🌐 » Aplicativo:</b> DuckInNET VIP ✓"
 msg+="<b>👤 » Usuário:</b> <code>xxxxx</code>\n"
@@ -61,7 +61,7 @@ msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
 acesso1() {
     local msg
         msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
-msg+="✅ ✨ 1 LOGIN DuckInNET VIP ✨ ✅"
+msg+="<b>✅ ✨ 1 LOGIN DuckInNET VIP ✨ ✅</b>"
 msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
 msg+="<b>🌐 » Aplicativo:</b> DuckInNET VIP ✓\n"
 msg+="<b>👤 » Usuário:</b> <code>xxxxx</code>\n"
@@ -85,7 +85,7 @@ msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
 ACESSO2() {
     local msg
         msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
-msg+="✅ ✨ 1 LOGIN DuckInNET VIP ✨ ✅"
+msg+="<b>✅ ✨ 1 LOGIN DuckInNET VIP ✨ ✅</b>"
 msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
 msg+="<b>🌐 » Aplicativo:</b> DuckInNET VIP ✓"
 msg+="<b>👤 » Usuário:</b> <code>xxxxx</code>\n"
@@ -109,7 +109,7 @@ msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
 acesso2() {
     local msg
         msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
-msg+="✅ ✨ 1 LOGIN DuckInNET VIP ✨ ✅"
+msg+="<b>✅ ✨ 1 LOGIN DuckInNET VIP ✨ ✅</b>"
 msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
 msg+="<b>🌐 » Aplicativo:</b> DuckInNET VIP ✓"
 msg+="<b>👤 » Usuário:</b> <code>xxxxx</code>\n"
@@ -133,7 +133,7 @@ msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
 ACESSO3() {
     local msg
         msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
-msg+="✅ ✨ 1 LOGIN DuckInNET VIP ✨ ✅"
+msg+="<b>✅ ✨ 1 LOGIN DuckInNET VIP ✨ ✅</b>"
 msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
 msg+="<b>🌐 » Aplicativo:</b> DuckInNET VIP ✓"
 msg+="<b>👤 » Usuário:</b> <code>xxxxx</code>\n"
@@ -157,7 +157,7 @@ msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
 acesso3() {
     local msg
         msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
-msg+="✅ ✨ 1 LOGIN DuckInNET VIP ✨ ✅"
+msg+="<b>✅ ✨ 1 LOGIN DuckInNET VIP ✨ ✅</b>"
 msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
 msg+="<b>🌐 » Aplicativo:</b> DuckInNET VIP ✓"
 msg+="<b>👤 » Usuário:</b> <code>xxxxx</code>\n"
