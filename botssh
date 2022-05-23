@@ -45,9 +45,9 @@ msg+="<b>🔑 » Senha:</b> <code>xxxxx</code>\n"
 msg+="<b>👤 » Limite:</b> 1 Usuário.\n"
 msg+="<b>📆 » Val:</b> 30 Dias.\n"
 msg+="<b>💰 » Valor:</b> R$ 15,00\n"
-
-msg+="👨🏻‍💻Compre Com @duckssh_ofc"
-
+msg+=""
+msg+="👨🏻‍💻Compre Com @duckssh_ofc\n"
+msg+=""
 msg+="📱Atendimento Das 10:00 Até 08:30 !"
 msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
@@ -69,9 +69,9 @@ msg+="<b>🔑 » Senha:</b> <code>xxxxx</code>\n"
 msg+="<b>👤 » Limite:</b> 2 Usuário.\n"
 msg+="<b>📆 » Val:</b> 30 Dias.\n"
 msg+="<b>💰 » Valor:</b> R$ 25,00\n"
-
-msg+="👨🏻‍💻Compre Com @duckssh_ofc"
-
+msg+=""
+msg+="👨🏻‍💻Compre Com @duckssh_ofc\n"
+msg+=""
 msg+="📱Atendimento Das 10:00 Até 08:30 !"
 msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
@@ -93,9 +93,9 @@ msg+="<b>🔑 » Senha:</b> <code>xxxxx</code>\n"
 msg+="<b>👤 » Limite:</b> 2 Usuário.\n"
 msg+="<b>📆 » Val:</b> 30 Dias.\n"
 msg+="<b>💰 » Valor:</b> R$ 25,00\n"
-
-msg+="👨🏻‍💻Compre Com @duckssh_ofc"
-
+msg+=""
+msg+="👨🏻‍💻Compre Com @duckssh_ofc\n"
+msg+=""
 msg+="📱Atendimento Das 10:00 Até 08:30 !"
 msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
@@ -117,9 +117,9 @@ msg+="<b>🔑 » Senha:</b> <code>xxxxx</code>\n"
 msg+="<b>👤 » Limite:</b> 2 Usuário.\n"
 msg+="<b>📆 » Val:</b> 30 Dias.\n"
 msg+="<b>💰 » Valor:</b> R$ 25,00\n"
-
-msg+="👨🏻‍💻Compre Com @duckssh_ofc"
-
+msg+=""
+msg+="👨🏻‍💻Compre Com @duckssh_ofc\n"
+msg+=""
 msg+="📱Atendimento Das 10:00 Até 08:30 !"
 msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
@@ -141,9 +141,9 @@ msg+="<b>🔑 » Senha:</b> <code>xxxxx</code>\n"
 msg+="<b>👤 » Limite:</b> 3 Usuário.\n"
 msg+="<b>📆 » Val:</b> 30 Dias.\n"
 msg+="<b>💰 » Valor:</b> R$ 35,00\n"
-
-msg+="👨🏻‍💻Compre Com @duckssh_ofc"
-
+msg+=""
+msg+="👨🏻‍💻Compre Com @duckssh_ofc\n"
+msg+=""
 msg+="📱Atendimento Das 10:00 Até 08:30 !"
 msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
@@ -165,9 +165,9 @@ msg+="<b>🔑 » Senha:</b> <code>xxxxx</code>\n"
 msg+="<b>👤 » Limite:</b> 3 Usuário.\n"
 msg+="<b>📆 » Val:</b> 30 Dias.\n"
 msg+="<b>💰 » Valor:</b> R$ 35,00\n"
-
-msg+="👨🏻‍💻Compre Com @duckssh_ofc"
-
+msg+=""
+msg+="👨🏻‍💻Compre Com @duckssh_ofc\n"
+msg+=""
 msg+="📱Atendimento Das 10:00 Até 08:30 !"
 msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
