@@ -37,9 +37,9 @@ menu() {
 ACESSO() {
     local msg
         msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
-        msg+="<b>✅ ✨ 1 LOGIN DUCK VIP ✨ ✅</b>"
+        msg+="<b>✅ ✨ 1 LOGIN DUCKNET VIP ✨ ✅</b>"
         msg+="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
-        msg+="🌐 » Aplicativos DUCK VIP ✓"
+        msg+="🌐 » Aplicativos DUCKNET VIP ✓"
         msg+="👤 » Usuário: <code>xxxxx</code>"
         msg+="🔑 » Senha: <code>xxxxx</code>"
         msg+="👤 » Limite: 1 Usuário."
