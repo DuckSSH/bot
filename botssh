@@ -21,11 +21,11 @@ ShellBot.username
 menu() {
     local msg
         msg="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-        msg+="😎 Ola <b>${message_from_first_name[$id]}</b>, SEJA BEM VINDO!(a)\n"
+        msg+="😃 Ola <b>${message_from_first_name[$id]}</b>, SEJA BEM VINDO!(a)\n"
         msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-        msg+="<b>GERE SEU TESTE DE 2 HORAS GRÁTIS</b>\n"
+        msg+="<b>GERE SEU TESTE DE 2 HORAS!</b>\n"
         msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-        msg+="Operadoras:<b>🔴CLARO 🟣VIVO 🔵TIM</b>\n"
+        msg+="<b>🔴CLARO 🟣VIVO 🔵TIM</b>\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
         --text "$(echo -e $msg)" \
         --reply_markup "$keyboard1" \
