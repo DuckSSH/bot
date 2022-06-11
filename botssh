@@ -20,8 +20,8 @@ ShellBot.username
 # - Funcao menu
 menu() {
     local msg
-        msg+="<b>⚠️ | Estamos em manutenção<b/>/n"
-msg+="O bot está em modo de manutenção. Provavelmente isso aconteceu porque estamos fazendo melhorias em algum recurso do bot ou no bot em si./n"
+        msg+="<b>⚠️ | Estamos em manutenção</b>\n"
+msg+="O bot está em modo de manutenção. Provavelmente isso aconteceu porque estamos fazendo melhorias em algum recurso do bot ou no bot em si.\n"
 msg+="Volte mais tarde, provavelmente o bot estará ativo novamente até lá :)"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
         --text "$(echo -e $msg)" \
@@ -33,8 +33,8 @@ msg+="Volte mais tarde, provavelmente o bot estará ativo novamente até lá :)"
 # - Funcao acesso1
 ACESSO1() {
     local msg
-        msg+="<b>⚠️ | Estamos em manutenção<b/>/n"
-msg+="O bot está em modo de manutenção. Provavelmente isso aconteceu porque estamos fazendo melhorias em algum recurso do bot ou no bot em si./n"
+        msg+="<b>⚠️ | Estamos em manutenção</b>\n"
+msg+="O bot está em modo de manutenção. Provavelmente isso aconteceu porque estamos fazendo melhorias em algum recurso do bot ou no bot em si.\n"
 msg+="Volte mais tarde, provavelmente o bot estará ativo novamente até lá :)"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
         --text "$(echo -e $msg)" \
@@ -46,8 +46,8 @@ msg+="Volte mais tarde, provavelmente o bot estará ativo novamente até lá :)"
 # - Funcao acesso1
 acesso1() {
     local msg
-        msg+="<b>⚠️ | Estamos em manutenção<b/>/n"
-msg+="O bot está em modo de manutenção. Provavelmente isso aconteceu porque estamos fazendo melhorias em algum recurso do bot ou no bot em si./n"
+        msg+="<b>⚠️ | Estamos em manutenção</b>\n"
+msg+="O bot está em modo de manutenção. Provavelmente isso aconteceu porque estamos fazendo melhorias em algum recurso do bot ou no bot em si.\n"
 msg+="Volte mais tarde, provavelmente o bot estará ativo novamente até lá :)"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
         --text "$(echo -e $msg)" \
@@ -59,8 +59,8 @@ msg+="Volte mais tarde, provavelmente o bot estará ativo novamente até lá :)"
 # - Funcao acesso2
 ACESSO2() {
     local msg
-        msg+="<b>⚠️ | Estamos em manutenção<b/>/n"
-msg+="O bot está em modo de manutenção. Provavelmente isso aconteceu porque estamos fazendo melhorias em algum recurso do bot ou no bot em si./n"
+        msg+="<b>⚠️ | Estamos em manutenção</b>\n"
+msg+="O bot está em modo de manutenção. Provavelmente isso aconteceu porque estamos fazendo melhorias em algum recurso do bot ou no bot em si.\n"
 msg+="Volte mais tarde, provavelmente o bot estará ativo novamente até lá :)"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
         --text "$(echo -e $msg)" \
@@ -72,8 +72,8 @@ msg+="Volte mais tarde, provavelmente o bot estará ativo novamente até lá :)"
 # - Funcao acesso2
 acesso2() {
     local msg
-        msg+="<b>⚠️ | Estamos em manutenção<b/>/n"
-msg+="O bot está em modo de manutenção. Provavelmente isso aconteceu porque estamos fazendo melhorias em algum recurso do bot ou no bot em si./n"
+        msg+="<b>⚠️ | Estamos em manutenção</b>\n"
+msg+="O bot está em modo de manutenção. Provavelmente isso aconteceu porque estamos fazendo melhorias em algum recurso do bot ou no bot em si.\n"
 msg+="Volte mais tarde, provavelmente o bot estará ativo novamente até lá :)"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
         --text "$(echo -e $msg)" \
@@ -85,8 +85,8 @@ msg+="Volte mais tarde, provavelmente o bot estará ativo novamente até lá :)"
 # - Funcao acesso3
 ACESSO3() {
     local msg
-        msg+="<b>⚠️ | Estamos em manutenção<b/>/n"
-msg+="O bot está em modo de manutenção. Provavelmente isso aconteceu porque estamos fazendo melhorias em algum recurso do bot ou no bot em si./n"
+        msg+="<b>⚠️ | Estamos em manutenção<b/>\n"
+msg+="O bot está em modo de manutenção. Provavelmente isso aconteceu porque estamos fazendo melhorias em algum recurso do bot ou no bot em si.\n"
 msg+="Volte mais tarde, provavelmente o bot estará ativo novamente até lá :)"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
         --text "$(echo -e $msg)" \
@@ -98,8 +98,8 @@ msg+="Volte mais tarde, provavelmente o bot estará ativo novamente até lá :)"
 # - Funcao acesso3
 acesso3() {
     local msg
-        msg+="<b>⚠️ | Estamos em manutenção<b/>/n"
-msg+="O bot está em modo de manutenção. Provavelmente isso aconteceu porque estamos fazendo melhorias em algum recurso do bot ou no bot em si./n"
+        msg+="<b>⚠️ | Estamos em manutenção</b>\n"
+msg+="O bot está em modo de manutenção. Provavelmente isso aconteceu porque estamos fazendo melhorias em algum recurso do bot ou no bot em si.\n"
 msg+="Volte mais tarde, provavelmente o bot estará ativo novamente até lá :)"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
         --text "$(echo -e $msg)" \
